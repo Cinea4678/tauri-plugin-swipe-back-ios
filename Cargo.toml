@@ -1,12 +1,16 @@
 [package]
 name = "tauri-plugin-swipe-back-ios"
-version = "0.0.0"
-authors = [ "You" ]
-description = ""
+version = "1.0.0"
+authors = [ "Zhang Yao<cineazhan@gmail.com>" ]
+description = "swiping gesture navigation support in iOS"
 edition = "2021"
 rust-version = "1.70"
 exclude = ["/examples", "/webview-dist", "/webview-src", "/node_modules"]
 links = "tauri-plugin-swipe-back-ios"
+license = "MIT"
+documentation = "https://doc.rs/tauri-plugin-swipe-back-ios"
+homepage = "https://github.com/Cinea4678/tauri-plugin-swipe-back-ios"
+repository = "https://github.com/Cinea4678/tauri-plugin-swipe-back-ios"
 
 [dependencies]
 tauri = { version = "2.0.0-beta.23" }
